@@ -85,7 +85,7 @@ impl TemplateComponent {
 
 #[derive(Serialize, Deserialize, Clone)]
 pub struct TemplateColumn {
-    #[derive(rename = "thumbnailImageUrl")]
+    // #[derive(rename = "thumbnailImageUrl")]
     thumbnail_image_url   : String,
     #[serde(rename = "imageBackgroundColor")]
     image_background_color: String,
